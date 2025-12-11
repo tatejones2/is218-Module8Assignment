@@ -1003,3 +1003,134 @@
 2025-12-11 15:32:12 - [32mINFO[0m - ================================================================================
 2025-12-11 15:32:12 - [32mINFO[0m - FastAPI Calculator Application Shutting Down
 2025-12-11 15:32:12 - [32mINFO[0m - ================================================================================
+2025-12-11 15:42:05 - [32mINFO[0m - ================================================================================
+2025-12-11 15:42:05 - [32mINFO[0m - FastAPI Calculator Application Starting
+2025-12-11 15:42:05 - [32mINFO[0m - ================================================================================
+2025-12-11 15:42:05 - [32mINFO[0m - Application initialized successfully
+2025-12-11 15:42:05 - [32mINFO[0m - Starting Uvicorn server...
+2025-12-11 15:42:05 - [32mINFO[0m - FastAPI application startup event triggered
+2025-12-11 15:42:05 - [32mINFO[0m - Application is running on http://127.0.0.1:8000
+2025-12-11 15:42:06 - [32mINFO[0m - [Request 125929555386128] GET /
+2025-12-11 15:42:06 - [32mINFO[0m - [Response 125929555386128] Status=200, Duration=0.027s
+2025-12-11 15:42:08 - [32mINFO[0m - [Request 125929553839024] GET /
+2025-12-11 15:42:08 - [32mINFO[0m - [Response 125929553839024] Status=200, Duration=0.002s
+2025-12-11 15:42:08 - [32mINFO[0m - [Request 125929553839216] GET /
+2025-12-11 15:42:08 - [32mINFO[0m - [Response 125929553839216] Status=200, Duration=0.001s
+2025-12-11 15:42:09 - [32mINFO[0m - [Request 125929553845792] POST /add
+2025-12-11 15:42:09 - [32mINFO[0m - Add endpoint called with a=10.0, b=5.0
+2025-12-11 15:42:09 - [32mINFO[0m - Add operation completed successfully: 10.0 + 5.0 = 15.0
+2025-12-11 15:42:09 - [32mINFO[0m - Operation: add | a=10.0 | b=5.0 | result=15.0 | status=SUCCESS
+2025-12-11 15:42:09 - [32mINFO[0m - Add operation successful: 10.0 + 5.0 = 15.0
+2025-12-11 15:42:09 - [32mINFO[0m - [Response 125929553845792] Status=200, Duration=0.009s
+2025-12-11 15:42:09 - [32mINFO[0m - [Request 125929553845168] GET /
+2025-12-11 15:42:09 - [32mINFO[0m - [Response 125929553845168] Status=200, Duration=0.001s
+2025-12-11 15:42:09 - [32mINFO[0m - [Request 125929553845216] POST /divide
+2025-12-11 15:42:09 - [32mINFO[0m - Divide endpoint called with a=10.0, b=0.0
+2025-12-11 15:42:09 - [33mWARNING[0m - Division by zero attempted: 10.0 / 0.0
+2025-12-11 15:42:09 - [31mERROR[0m - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=10.0 | b=0.0
+2025-12-11 15:42:09 - [31mERROR[0m - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:42:09 - [33mWARNING[0m - Divide Operation ValueError: Cannot divide by zero!
+2025-12-11 15:42:09 - [31mERROR[0m - HTTPException on /divide: Status=400, Detail=Cannot divide by zero!
+2025-12-11 15:42:09 - [32mINFO[0m - [Response 125929553845216] Status=400, Duration=0.006s
+2025-12-11 15:42:09 - [32mINFO[0m - [Request 125929553850400] GET /
+2025-12-11 15:42:09 - [32mINFO[0m - [Response 125929553850400] Status=200, Duration=0.001s
+2025-12-11 15:42:09 - [32mINFO[0m - [Request 125929553842144] POST /subtract
+2025-12-11 15:42:09 - [32mINFO[0m - Subtract endpoint called with a=20.0, b=8.0
+2025-12-11 15:42:09 - [32mINFO[0m - Subtract operation completed successfully: 20.0 - 8.0 = 12.0
+2025-12-11 15:42:09 - [32mINFO[0m - Operation: subtract | a=20.0 | b=8.0 | result=12.0 | status=SUCCESS
+2025-12-11 15:42:09 - [32mINFO[0m - Subtract operation successful: 20.0 - 8.0 = 12.0
+2025-12-11 15:42:09 - [32mINFO[0m - [Response 125929553842144] Status=200, Duration=0.004s
+2025-12-11 15:42:10 - [32mINFO[0m - [Request 125929553842240] GET /
+2025-12-11 15:42:10 - [32mINFO[0m - [Response 125929553842240] Status=200, Duration=0.001s
+2025-12-11 15:42:10 - [32mINFO[0m - [Request 125929553852512] POST /multiply
+2025-12-11 15:42:10 - [32mINFO[0m - Multiply endpoint called with a=6.0, b=7.0
+2025-12-11 15:42:10 - [32mINFO[0m - Multiply operation completed successfully: 6.0 * 7.0 = 42.0
+2025-12-11 15:42:10 - [32mINFO[0m - Operation: multiply | a=6.0 | b=7.0 | result=42.0 | status=SUCCESS
+2025-12-11 15:42:10 - [32mINFO[0m - Multiply operation successful: 6.0 * 7.0 = 42.0
+2025-12-11 15:42:10 - [32mINFO[0m - [Response 125929553852512] Status=200, Duration=0.004s
+2025-12-11 15:42:10 - [32mINFO[0m - [Request 125929553853328] GET /
+2025-12-11 15:42:10 - [32mINFO[0m - [Response 125929553853328] Status=200, Duration=0.001s
+2025-12-11 15:42:10 - [32mINFO[0m - [Request 125929554085552] POST /divide
+2025-12-11 15:42:10 - [32mINFO[0m - Divide endpoint called with a=20.0, b=4.0
+2025-12-11 15:42:10 - [32mINFO[0m - Divide operation completed successfully: 20.0 / 4.0 = 5.0
+2025-12-11 15:42:10 - [32mINFO[0m - Operation: divide | a=20.0 | b=4.0 | result=5.0 | status=SUCCESS
+2025-12-11 15:42:10 - [32mINFO[0m - Divide operation successful: 20.0 / 4.0 = 5.0
+2025-12-11 15:42:10 - [32mINFO[0m - [Response 125929554085552] Status=200, Duration=0.005s
+2025-12-11 15:42:10 - [32mINFO[0m - [Request 125929554085744] GET /
+2025-12-11 15:42:10 - [32mINFO[0m - [Response 125929554085744] Status=200, Duration=0.001s
+2025-12-11 15:42:11 - [32mINFO[0m - [Request 125929554086464] POST /add
+2025-12-11 15:42:11 - [32mINFO[0m - Add endpoint called with a=-10.0, b=5.0
+2025-12-11 15:42:11 - [32mINFO[0m - Add operation completed successfully: -10.0 + 5.0 = -5.0
+2025-12-11 15:42:11 - [32mINFO[0m - Operation: add | a=-10.0 | b=5.0 | result=-5.0 | status=SUCCESS
+2025-12-11 15:42:11 - [32mINFO[0m - Add operation successful: -10.0 + 5.0 = -5.0
+2025-12-11 15:42:11 - [32mINFO[0m - [Response 125929554086464] Status=200, Duration=0.004s
+2025-12-11 15:42:11 - [32mINFO[0m - [Request 125929554090736] GET /
+2025-12-11 15:42:11 - [32mINFO[0m - [Response 125929554090736] Status=200, Duration=0.003s
+2025-12-11 15:42:11 - [32mINFO[0m - [Request 125929553853664] POST /add
+2025-12-11 15:42:11 - [32mINFO[0m - Add endpoint called with a=10.5, b=2.5
+2025-12-11 15:42:11 - [32mINFO[0m - Add operation completed successfully: 10.5 + 2.5 = 13.0
+2025-12-11 15:42:11 - [32mINFO[0m - Operation: add | a=10.5 | b=2.5 | result=13.0 | status=SUCCESS
+2025-12-11 15:42:11 - [32mINFO[0m - Add operation successful: 10.5 + 2.5 = 13.0
+2025-12-11 15:42:11 - [32mINFO[0m - [Response 125929553853664] Status=200, Duration=0.007s
+2025-12-11 15:42:11 - [32mINFO[0m - [Request 125929553840656] GET /
+2025-12-11 15:42:11 - [32mINFO[0m - [Response 125929553840656] Status=200, Duration=0.001s
+2025-12-11 15:42:12 - [32mINFO[0m - [Request 125929553842336] POST /add
+2025-12-11 15:42:12 - [32mINFO[0m - Add endpoint called with a=5.0, b=3.0
+2025-12-11 15:42:12 - [32mINFO[0m - Add operation completed successfully: 5.0 + 3.0 = 8.0
+2025-12-11 15:42:12 - [32mINFO[0m - Operation: add | a=5.0 | b=3.0 | result=8.0 | status=SUCCESS
+2025-12-11 15:42:12 - [32mINFO[0m - Add operation successful: 5.0 + 3.0 = 8.0
+2025-12-11 15:42:12 - [32mINFO[0m - [Response 125929553842336] Status=200, Duration=0.004s
+2025-12-11 15:42:12 - [32mINFO[0m - [Request 125929553852032] POST /multiply
+2025-12-11 15:42:12 - [32mINFO[0m - Multiply endpoint called with a=4.0, b=2.0
+2025-12-11 15:42:12 - [32mINFO[0m - Multiply operation completed successfully: 4.0 * 2.0 = 8.0
+2025-12-11 15:42:12 - [32mINFO[0m - Operation: multiply | a=4.0 | b=2.0 | result=8.0 | status=SUCCESS
+2025-12-11 15:42:12 - [32mINFO[0m - Multiply operation successful: 4.0 * 2.0 = 8.0
+2025-12-11 15:42:12 - [32mINFO[0m - [Response 125929553852032] Status=200, Duration=0.005s
+2025-12-11 15:42:12 - [32mINFO[0m - [Request 125929553850688] POST /subtract
+2025-12-11 15:42:12 - [32mINFO[0m - Subtract endpoint called with a=20.0, b=5.0
+2025-12-11 15:42:12 - [32mINFO[0m - Subtract operation completed successfully: 20.0 - 5.0 = 15.0
+2025-12-11 15:42:12 - [32mINFO[0m - Operation: subtract | a=20.0 | b=5.0 | result=15.0 | status=SUCCESS
+2025-12-11 15:42:12 - [32mINFO[0m - Subtract operation successful: 20.0 - 5.0 = 15.0
+2025-12-11 15:42:12 - [32mINFO[0m - [Response 125929553850688] Status=200, Duration=0.004s
+2025-12-11 15:42:12 - [32mINFO[0m - [Request 125929553844448] GET /
+2025-12-11 15:42:12 - [32mINFO[0m - [Response 125929553844448] Status=200, Duration=0.001s
+2025-12-11 15:42:12 - [32mINFO[0m - [Request 125929554091072] POST /add
+2025-12-11 15:42:12 - [32mINFO[0m - Add endpoint called with a=0.0, b=5.0
+2025-12-11 15:42:12 - [32mINFO[0m - Add operation completed successfully: 0.0 + 5.0 = 5.0
+2025-12-11 15:42:12 - [32mINFO[0m - Operation: add | a=0.0 | b=5.0 | result=5.0 | status=SUCCESS
+2025-12-11 15:42:12 - [32mINFO[0m - Add operation successful: 0.0 + 5.0 = 5.0
+2025-12-11 15:42:12 - [32mINFO[0m - [Response 125929554091072] Status=200, Duration=0.005s
+2025-12-11 15:42:12 - [32mINFO[0m - [Request 125929554089056] POST /multiply
+2025-12-11 15:42:12 - [32mINFO[0m - Multiply endpoint called with a=100.0, b=0.0
+2025-12-11 15:42:12 - [32mINFO[0m - Multiply operation completed successfully: 100.0 * 0.0 = 0.0
+2025-12-11 15:42:12 - [32mINFO[0m - Operation: multiply | a=100.0 | b=0.0 | result=0.0 | status=SUCCESS
+2025-12-11 15:42:12 - [32mINFO[0m - Multiply operation successful: 100.0 * 0.0 = 0.0
+2025-12-11 15:42:12 - [32mINFO[0m - [Response 125929554089056] Status=200, Duration=0.005s
+2025-12-11 15:42:13 - [32mINFO[0m - [Request 125929554087712] GET /
+2025-12-11 15:42:13 - [32mINFO[0m - [Response 125929554087712] Status=200, Duration=0.001s
+2025-12-11 15:42:13 - [32mINFO[0m - [Request 125929554090880] POST /add
+2025-12-11 15:42:13 - [32mINFO[0m - Add endpoint called with a=1000000.0, b=2000000.0
+2025-12-11 15:42:13 - [32mINFO[0m - Add operation completed successfully: 1000000.0 + 2000000.0 = 3000000.0
+2025-12-11 15:42:13 - [32mINFO[0m - Operation: add | a=1000000.0 | b=2000000.0 | result=3000000.0 | status=SUCCESS
+2025-12-11 15:42:13 - [32mINFO[0m - Add operation successful: 1000000.0 + 2000000.0 = 3000000.0
+2025-12-11 15:42:13 - [32mINFO[0m - [Response 125929554090880] Status=200, Duration=0.005s
+2025-12-11 15:42:13 - [32mINFO[0m - [Request 125929554096832] GET /
+2025-12-11 15:42:13 - [32mINFO[0m - [Response 125929554096832] Status=200, Duration=0.001s
+2025-12-11 15:42:13 - [32mINFO[0m - [Request 125929553845216] POST /subtract
+2025-12-11 15:42:13 - [32mINFO[0m - Subtract endpoint called with a=20.0, b=3.0
+2025-12-11 15:42:13 - [32mINFO[0m - Subtract operation completed successfully: 20.0 - 3.0 = 17.0
+2025-12-11 15:42:13 - [32mINFO[0m - Operation: subtract | a=20.0 | b=3.0 | result=17.0 | status=SUCCESS
+2025-12-11 15:42:13 - [32mINFO[0m - Subtract operation successful: 20.0 - 3.0 = 17.0
+2025-12-11 15:42:13 - [32mINFO[0m - [Response 125929553845216] Status=200, Duration=0.003s
+2025-12-11 15:42:14 - [32mINFO[0m - [Request 125929553849632] GET /
+2025-12-11 15:42:14 - [32mINFO[0m - [Response 125929553849632] Status=200, Duration=0.001s
+2025-12-11 15:42:14 - [32mINFO[0m - [Request 125929553849584] GET /
+2025-12-11 15:42:14 - [32mINFO[0m - [Response 125929553849584] Status=200, Duration=0.001s
+2025-12-11 15:42:14 - [32mINFO[0m - [Request 125929553849872] GET /
+2025-12-11 15:42:14 - [32mINFO[0m - [Response 125929553849872] Status=200, Duration=0.001s
+2025-12-11 15:42:14 - [32mINFO[0m - [Request 125929553844400] GET /
+2025-12-11 15:42:14 - [32mINFO[0m - [Response 125929553844400] Status=200, Duration=0.001s
+2025-12-11 15:42:15 - [32mINFO[0m - FastAPI application shutdown event triggered
+2025-12-11 15:42:15 - [32mINFO[0m - ================================================================================
+2025-12-11 15:42:15 - [32mINFO[0m - FastAPI Calculator Application Shutting Down
+2025-12-11 15:42:15 - [32mINFO[0m - ================================================================================
