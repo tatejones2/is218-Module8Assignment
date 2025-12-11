@@ -18,7 +18,14 @@ These functions can be imported and used in other modules or integrated into API
 to perform arithmetic operations based on user input.
 """
 
+import logging
 from typing import Union  # Import Union for type hinting multiple possible types
+
+# Import logging configuration
+from app.logging_config import get_logger, log_operation, log_error_with_context
+
+# Get logger for this module
+logger = get_logger(__name__)
 
 # Define a type alias for numbers that can be either int or float
 Number = Union[int, float]
@@ -40,9 +47,17 @@ def add(a: Number, b: Number) -> Number:
     >>> add(2.5, 3)
     5.5
     """
-    # Perform addition of a and b
-    result = a + b
-    return result
+    try:
+        logger.debug(f"Executing add operation: a={a}, b={b}")
+        # Perform addition of a and b
+        result = a + b
+        logger.info(f"Add operation completed successfully: {a} + {b} = {result}")
+        log_operation("add", a, b, result, "SUCCESS")
+        return result
+    except Exception as e:
+        logger.error(f"Add operation failed: {str(e)}", exc_info=True)
+        log_error_with_context("Add", str(e), {"a": a, "b": b})
+        raise
 
 def subtract(a: Number, b: Number) -> Number:
     """
@@ -61,9 +76,17 @@ def subtract(a: Number, b: Number) -> Number:
     >>> subtract(5.5, 2)
     3.5
     """
-    # Perform subtraction of b from a
-    result = a - b
-    return result
+    try:
+        logger.debug(f"Executing subtract operation: a={a}, b={b}")
+        # Perform subtraction of b from a
+        result = a - b
+        logger.info(f"Subtract operation completed successfully: {a} - {b} = {result}")
+        log_operation("subtract", a, b, result, "SUCCESS")
+        return result
+    except Exception as e:
+        logger.error(f"Subtract operation failed: {str(e)}", exc_info=True)
+        log_error_with_context("Subtract", str(e), {"a": a, "b": b})
+        raise
 
 def multiply(a: Number, b: Number) -> Number:
     """
@@ -82,9 +105,17 @@ def multiply(a: Number, b: Number) -> Number:
     >>> multiply(2.5, 4)
     10.0
     """
-    # Perform multiplication of a and b
-    result = a * b
-    return result
+    try:
+        logger.debug(f"Executing multiply operation: a={a}, b={b}")
+        # Perform multiplication of a and b
+        result = a * b
+        logger.info(f"Multiply operation completed successfully: {a} * {b} = {result}")
+        log_operation("multiply", a, b, result, "SUCCESS")
+        return result
+    except Exception as e:
+        logger.error(f"Multiply operation failed: {str(e)}", exc_info=True)
+        log_error_with_context("Multiply", str(e), {"a": a, "b": b})
+        raise
 
 def divide(a: Number, b: Number) -> float:
     """
@@ -110,11 +141,25 @@ def divide(a: Number, b: Number) -> float:
         ...
     ValueError: Cannot divide by zero!
     """
-    # Check if the divisor is zero to prevent division by zero
-    if b == 0:
-        # Raise a ValueError with a descriptive message
-        raise ValueError("Cannot divide by zero!")
-    
-    # Perform division of a by b and return the result as a float
-    result = a / b
-    return result
+    try:
+        logger.debug(f"Executing divide operation: a={a}, b={b}")
+        
+        # Check if the divisor is zero to prevent division by zero
+        if b == 0:
+            error_msg = "Cannot divide by zero!"
+            logger.warning(f"Division by zero attempted: {a} / {b}")
+            log_error_with_context("ValueError", error_msg, {"a": a, "b": b})
+            raise ValueError(error_msg)
+        
+        # Perform division of a by b and return the result as a float
+        result = a / b
+        logger.info(f"Divide operation completed successfully: {a} / {b} = {result}")
+        log_operation("divide", a, b, result, "SUCCESS")
+        return result
+    except ValueError as e:
+        logger.error(f"Divide operation failed with ValueError: {str(e)}")
+        raise
+    except Exception as e:
+        logger.error(f"Divide operation failed with unexpected error: {str(e)}", exc_info=True)
+        log_error_with_context("Divide", str(e), {"a": a, "b": b})
+        raise
