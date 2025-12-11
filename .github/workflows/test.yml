@@ -41,6 +41,9 @@ jobs:
           pip install -r requirements.txt
           echo "✓ Dependencies installed successfully"
       
+      - name: Create test results directory
+        run: mkdir -p test-results
+      
       - name: Run unit tests with coverage
         run: |
           echo "Running unit tests..."
@@ -101,6 +104,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: Create test results directory
+        run: mkdir -p test-results
+      
       - name: Run integration tests
         run: |
           echo "Running integration tests..."
@@ -140,6 +146,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           playwright install chromium
+      
+      - name: Create test results directory
+        run: mkdir -p test-results
       
       - name: Run E2E tests
         run: |
