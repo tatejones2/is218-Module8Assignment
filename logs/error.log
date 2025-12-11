@@ -4,3 +4,12 @@
 2025-12-11 15:21:19 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=10.0 | b=0.0
 2025-12-11 15:21:19 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
 2025-12-11 15:21:19 - main - [31mERROR[0m - http_exception_handler:55 - HTTPException on /divide: Status=400, Detail=Cannot divide by zero!
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=6 | b=0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=0 | b=0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=5 | b=-0.0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=10.0 | b=0.0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - main - [31mERROR[0m - http_exception_handler:55 - HTTPException on /divide: Status=400, Detail=Cannot divide by zero!

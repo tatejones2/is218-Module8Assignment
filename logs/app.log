@@ -596,3 +596,410 @@
 2025-12-11 15:21:19 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
 2025-12-11 15:21:19 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
 2025-12-11 15:21:19 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:29:30 - main - [32mINFO[0m - <module>:21 - ================================================================================
+2025-12-11 15:29:30 - main - [32mINFO[0m - <module>:22 - FastAPI Calculator Application Starting
+2025-12-11 15:29:30 - main - [32mINFO[0m - <module>:23 - ================================================================================
+2025-12-11 15:29:30 - main - [32mINFO[0m - <module>:30 - Application initialized successfully
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - <module>:21 - ================================================================================
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - <module>:22 - FastAPI Calculator Application Starting
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - <module>:23 - ================================================================================
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - <module>:30 - Application initialized successfully
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - <module>:180 - Starting Uvicorn server...
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - log_requests:77 - [Request 123278030658672] GET /
+2025-12-11 15:29:31 - __main__ - [32mINFO[0m - log_requests:88 - [Response 123278030658672] Status=200, Duration=0.025s
+2025-12-11 15:29:32 - __main__ - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:29:32 - __main__ - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:29:32 - __main__ - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:29:32 - __main__ - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - <module>:21 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - <module>:22 - FastAPI Calculator Application Starting
+2025-12-11 15:32:11 - main - [32mINFO[0m - <module>:23 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - <module>:30 - Application initialized successfully
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 2 + 3 = 5
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=2 | b=3 | result=5 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: -2 + -3 = -5
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=-2 | b=-3 | result=-5 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 2.5 + 3.5 = 6.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=2.5 | b=3.5 | result=6.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: -2.5 + 3.5 = 1.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=-2.5 | b=3.5 | result=1.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 0 + 0 = 0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=0 | b=0 | result=0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 5 - 3 = 2
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=5 | b=3 | result=2 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: -5 - -3 = -2
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=-5 | b=-3 | result=-2 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 5.5 - 2.5 = 3.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=5.5 | b=2.5 | result=3.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: -5.5 - -2.5 = -3.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=-5.5 | b=-2.5 | result=-3.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 0 - 0 = 0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=0 | b=0 | result=0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 2 * 3 = 6
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=2 | b=3 | result=6 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: -2 * 3 = -6
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=-2 | b=3 | result=-6 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 2.5 * 4.0 = 10.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=2.5 | b=4.0 | result=10.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: -2.5 * 4.0 = -10.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=-2.5 | b=4.0 | result=-10.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 0 * 5 = 0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=0 | b=5 | result=0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 6 / 3 = 2.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=6 | b=3 | result=2.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: -6 / 3 = -2.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=-6 | b=3 | result=-2.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 6.0 / 3.0 = 2.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=6.0 | b=3.0 | result=2.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: -6.0 / 3.0 = -2.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=-6.0 | b=3.0 | result=-2.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 0 / 5 = 0.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=0 | b=5 | result=0.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [33mWARNING[0m - divide:150 - Division by zero attempted: 6 / 0
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=6 | b=0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 10000000000.0 + 10000000000.0 = 20000000000.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=10000000000.0 | b=10000000000.0 | result=20000000000.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 1e-10 + 1e-10 = 2e-10
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=1e-10 | b=1e-10 | result=2e-10 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 0 + 0 = 0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=0 | b=0 | result=0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 10000000000.0 - 10000000000.0 = 0.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=10000000000.0 | b=10000000000.0 | result=0.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 5 - -5 = 10
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=5 | b=-5 | result=10 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 0 - -1 = 1
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=0 | b=-1 | result=1 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 2 * 3.5 = 7.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=2 | b=3.5 | result=7.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 100000.0 * 100000.0 = 10000000000.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=100000.0 | b=100000.0 | result=10000000000.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: -1 * -1 = 1
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=-1 | b=-1 | result=1 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 0.5 * 0.5 = 0.25
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=0.5 | b=0.5 | result=0.25 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [33mWARNING[0m - divide:150 - Division by zero attempted: 0 / 0
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=0 | b=0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - app.operations - [33mWARNING[0m - divide:150 - Division by zero attempted: 5 / -0.0
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=5 | b=-0.0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 1e-10 / 10000000000.0 = 1.0000000000000001e-20
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=1e-10 | b=10000000000.0 | result=1.0000000000000001e-20 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 100 / 3 = 33.333333333333336
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=100 | b=3 | result=33.333333333333336 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 7 / 2 = 3.5
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=7 | b=2 | result=3.5 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 10 + 5 = 15
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=10 | b=5 | result=15 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 15 - 3 = 12
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=15 | b=3 | result=12 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 10 * 4 = 40
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=10 | b=4 | result=40 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 40 / 2 = 20.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=40 | b=2 | result=20.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 10 + 5 = 15
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=10 | b=5 | result=15 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 15 * 2 = 30
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=15 | b=2 | result=30 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 10 / 5 = 2.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=10 | b=5 | result=2.0 | status=SUCCESS
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 30 - 2.0 = 28.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=30 | b=2.0 | result=28.0 | status=SUCCESS
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:77 - [Request 140487493007936] POST /add
+2025-12-11 15:32:11 - main - [32mINFO[0m - add_route:111 - Add endpoint called with a=10.0, b=5.0
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 10.0 + 5.0 = 15.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=10.0 | b=5.0 | result=15.0 | status=SUCCESS
+2025-12-11 15:32:11 - main - [32mINFO[0m - add_route:114 - Add operation successful: 10.0 + 5.0 = 15.0
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:88 - [Response 140487493007936] Status=200, Duration=0.007s
+2025-12-11 15:32:11 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 200 OK"
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:77 - [Request 140487482745168] POST /subtract
+2025-12-11 15:32:11 - main - [32mINFO[0m - subtract_route:125 - Subtract endpoint called with a=10.0, b=5.0
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 10.0 - 5.0 = 5.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=10.0 | b=5.0 | result=5.0 | status=SUCCESS
+2025-12-11 15:32:11 - main - [32mINFO[0m - subtract_route:128 - Subtract operation successful: 10.0 - 5.0 = 5.0
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:88 - [Response 140487482745168] Status=200, Duration=0.004s
+2025-12-11 15:32:11 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/subtract "HTTP/1.1 200 OK"
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:77 - [Request 140487482744400] POST /multiply
+2025-12-11 15:32:11 - main - [32mINFO[0m - multiply_route:139 - Multiply endpoint called with a=10.0, b=5.0
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 10.0 * 5.0 = 50.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=10.0 | b=5.0 | result=50.0 | status=SUCCESS
+2025-12-11 15:32:11 - main - [32mINFO[0m - multiply_route:142 - Multiply operation successful: 10.0 * 5.0 = 50.0
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:88 - [Response 140487482744400] Status=200, Duration=0.004s
+2025-12-11 15:32:11 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/multiply "HTTP/1.1 200 OK"
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:77 - [Request 140487482750304] POST /divide
+2025-12-11 15:32:11 - main - [32mINFO[0m - divide_route:153 - Divide endpoint called with a=10.0, b=2.0
+2025-12-11 15:32:11 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 10.0 / 2.0 = 5.0
+2025-12-11 15:32:11 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=10.0 | b=2.0 | result=5.0 | status=SUCCESS
+2025-12-11 15:32:11 - main - [32mINFO[0m - divide_route:156 - Divide operation successful: 10.0 / 2.0 = 5.0
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:88 - [Response 140487482750304] Status=200, Duration=0.004s
+2025-12-11 15:32:11 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/divide "HTTP/1.1 200 OK"
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:77 - [Request 140487482746224] POST /divide
+2025-12-11 15:32:11 - main - [32mINFO[0m - divide_route:153 - Divide endpoint called with a=10.0, b=0.0
+2025-12-11 15:32:11 - app.operations - [33mWARNING[0m - divide:150 - Division by zero attempted: 10.0 / 0.0
+2025-12-11 15:32:11 - errors - [31mERROR[0m - log_error_with_context:210 - Error Type: ValueError | Message: Cannot divide by zero! | Context: a=10.0 | b=0.0
+2025-12-11 15:32:11 - app.operations - [31mERROR[0m - divide:160 - Divide operation failed with ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - main - [33mWARNING[0m - divide_route:159 - Divide Operation ValueError: Cannot divide by zero!
+2025-12-11 15:32:11 - main - [31mERROR[0m - http_exception_handler:55 - HTTPException on /divide: Status=400, Detail=Cannot divide by zero!
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:88 - [Response 140487482746224] Status=400, Duration=0.006s
+2025-12-11 15:32:11 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/divide "HTTP/1.1 400 Bad Request"
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:77 - [Request 140487482967008] GET /
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:88 - [Response 140487482967008] Status=200, Duration=0.027s
+2025-12-11 15:32:11 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:11 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:11 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:77 - [Request 140487482741808] POST /add
+2025-12-11 15:32:11 - main - [33mWARNING[0m - validation_exception_handler:65 - ValidationError on /add: a: Input should be a valid number, unable to parse string as a number
+2025-12-11 15:32:11 - main - [32mINFO[0m - log_requests:88 - [Response 140487482741808] Status=422, Duration=0.004s
+2025-12-11 15:32:11 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 422 Unprocessable Entity"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487493005680] POST /add
+2025-12-11 15:32:12 - main - [33mWARNING[0m - validation_exception_handler:65 - ValidationError on /add: b: Field required
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487493005680] Status=422, Duration=0.002s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 422 Unprocessable Entity"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482966768] POST /subtract
+2025-12-11 15:32:12 - main - [33mWARNING[0m - validation_exception_handler:65 - ValidationError on /subtract: a: Field required
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482966768] Status=422, Duration=0.002s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/subtract "HTTP/1.1 422 Unprocessable Entity"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482744640] POST /multiply
+2025-12-11 15:32:12 - main - [33mWARNING[0m - validation_exception_handler:65 - ValidationError on /multiply: b: Field required
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482744640] Status=422, Duration=0.002s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/multiply "HTTP/1.1 422 Unprocessable Entity"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482970560] POST /divide
+2025-12-11 15:32:12 - main - [33mWARNING[0m - validation_exception_handler:65 - ValidationError on /divide: a: Field required
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482970560] Status=422, Duration=0.002s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/divide "HTTP/1.1 422 Unprocessable Entity"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482743728] POST /add
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:111 - Add endpoint called with a=2.5, b=3.5
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 2.5 + 3.5 = 6.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=2.5 | b=3.5 | result=6.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:114 - Add operation successful: 2.5 + 3.5 = 6.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482743728] Status=200, Duration=0.003s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482967488] POST /subtract
+2025-12-11 15:32:12 - main - [32mINFO[0m - subtract_route:125 - Subtract endpoint called with a=10.5, b=5.2
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: 10.5 - 5.2 = 5.3
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=10.5 | b=5.2 | result=5.3 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - subtract_route:128 - Subtract operation successful: 10.5 - 5.2 = 5.3
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482967488] Status=200, Duration=0.004s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/subtract "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482748768] POST /multiply
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:139 - Multiply endpoint called with a=2.5, b=4.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 2.5 * 4.0 = 10.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=2.5 | b=4.0 | result=10.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:142 - Multiply operation successful: 2.5 * 4.0 = 10.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482748768] Status=200, Duration=0.003s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/multiply "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482971424] POST /divide
+2025-12-11 15:32:12 - main - [32mINFO[0m - divide_route:153 - Divide endpoint called with a=10.5, b=2.5
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: 10.5 / 2.5 = 4.2
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=10.5 | b=2.5 | result=4.2 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - divide_route:156 - Divide operation successful: 10.5 / 2.5 = 4.2
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482971424] Status=200, Duration=0.004s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/divide "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487492433776] POST /add
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:111 - Add endpoint called with a=-10.0, b=5.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: -10.0 + 5.0 = -5.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=-10.0 | b=5.0 | result=-5.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:114 - Add operation successful: -10.0 + 5.0 = -5.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487492433776] Status=200, Duration=0.004s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482978720] POST /subtract
+2025-12-11 15:32:12 - main - [32mINFO[0m - subtract_route:125 - Subtract endpoint called with a=-10.0, b=-5.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - subtract:83 - Subtract operation completed successfully: -10.0 - -5.0 = -5.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: subtract | a=-10.0 | b=-5.0 | result=-5.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - subtract_route:128 - Subtract operation successful: -10.0 - -5.0 = -5.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482978720] Status=200, Duration=0.004s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/subtract "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482743584] POST /multiply
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:139 - Multiply endpoint called with a=-10.0, b=5.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: -10.0 * 5.0 = -50.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=-10.0 | b=5.0 | result=-50.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:142 - Multiply operation successful: -10.0 * 5.0 = -50.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482743584] Status=200, Duration=0.004s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/multiply "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482980496] POST /divide
+2025-12-11 15:32:12 - main - [32mINFO[0m - divide_route:153 - Divide endpoint called with a=-10.0, b=5.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - divide:156 - Divide operation completed successfully: -10.0 / 5.0 = -2.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: divide | a=-10.0 | b=5.0 | result=-2.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - divide_route:156 - Divide operation successful: -10.0 / 5.0 = -2.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482980496] Status=200, Duration=0.003s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/divide "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482978528] POST /add
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:111 - Add endpoint called with a=0.0, b=0.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 0.0 + 0.0 = 0.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=0.0 | b=0.0 | result=0.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:114 - Add operation successful: 0.0 + 0.0 = 0.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482978528] Status=200, Duration=0.003s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487483147088] POST /multiply
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:139 - Multiply endpoint called with a=0.0, b=100.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 0.0 * 100.0 = 0.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=0.0 | b=100.0 | result=0.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:142 - Multiply operation successful: 0.0 * 100.0 = 0.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487483147088] Status=200, Duration=0.004s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/multiply "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482738256] POST /add
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:111 - Add endpoint called with a=10000000000.0, b=10000000000.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 10000000000.0 + 10000000000.0 = 20000000000.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=10000000000.0 | b=10000000000.0 | result=20000000000.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:114 - Add operation successful: 10000000000.0 + 10000000000.0 = 20000000000.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482738256] Status=200, Duration=0.006s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487483147136] POST /multiply
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:139 - Multiply endpoint called with a=100000.0, b=100000.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - multiply:112 - Multiply operation completed successfully: 100000.0 * 100000.0 = 10000000000.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: multiply | a=100000.0 | b=100000.0 | result=10000000000.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - multiply_route:142 - Multiply operation successful: 100000.0 * 100000.0 = 10000000000.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487483147136] Status=200, Duration=0.003s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/multiply "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:168 - FastAPI application startup event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - startup_event:169 - Application is running on http://127.0.0.1:8000
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:77 - [Request 140487482978672] POST /add
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:111 - Add endpoint called with a=5.0, b=3.0
+2025-12-11 15:32:12 - app.operations - [32mINFO[0m - add:54 - Add operation completed successfully: 5.0 + 3.0 = 8.0
+2025-12-11 15:32:12 - operations - [32mINFO[0m - log_operation:191 - Operation: add | a=5.0 | b=3.0 | result=8.0 | status=SUCCESS
+2025-12-11 15:32:12 - main - [32mINFO[0m - add_route:114 - Add operation successful: 5.0 + 3.0 = 8.0
+2025-12-11 15:32:12 - main - [32mINFO[0m - log_requests:88 - [Response 140487482978672] Status=200, Duration=0.004s
+2025-12-11 15:32:12 - httpx - [32mINFO[0m - _send_single_request:1038 - HTTP Request: POST http://testserver/add "HTTP/1.1 200 OK"
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:174 - FastAPI application shutdown event triggered
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:175 - ================================================================================
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:176 - FastAPI Calculator Application Shutting Down
+2025-12-11 15:32:12 - main - [32mINFO[0m - shutdown_event:177 - ================================================================================
