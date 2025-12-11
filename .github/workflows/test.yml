@@ -67,7 +67,7 @@ jobs:
       
       - name: Archive unit test results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: unit-test-results
           path: test-results/
@@ -75,7 +75,7 @@ jobs:
       
       - name: Archive coverage reports
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: coverage-report
           path: htmlcov/
@@ -117,7 +117,7 @@ jobs:
       
       - name: Archive integration test results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: integration-test-results
           path: test-results/
@@ -161,7 +161,7 @@ jobs:
       
       - name: Archive E2E test results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: e2e-test-results
           path: test-results/
@@ -221,7 +221,7 @@ jobs:
     
     steps:
       - name: Download all test results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
       
       - name: Display test summary
         run: |
